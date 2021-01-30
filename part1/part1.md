@@ -29,17 +29,29 @@
     E. `student.courseLoad[0]; 
 14. A. `'32'` because `'3'` is a string so the + is a concatenation     operation, so `2` gets converted to a string.
     B. `1` because - is an arithmetic operation so the `'3'` gets converted to a number.
+
     C. `3` because `3` is a number, so + is an arithmetic operation which causes `null` to be converted to `0`.
+
     D. `'3null'` because `'3'` is a string so + is a concatenation operation.
+
     E. `true` is not a string, so + is an arithmetic operation that converts `true` to `1`.
+
     F. `false` is not a string, so + is an arithmetic operation that converts both `false` and `null` to `0`.
+
     G. `"3"` is a string so + is a concateation operation which converts `undefined` into a string.
+
     H. - is an arithmetic operation, so when it tries to convert `undefined` into a number, the result is `NaN`.
+
 15. A. `true` because strings get converted to numbers for comparisons with other numbers.
+
     B. `false` because strings are compared based on lexicographical order and 2 is greater than 1.
+    
     C. `true` because strings get converted to numbers for comparisons with other numbers.
+
     D. `false` because `===` does not do any type conversions.
+
     E. `false` because when `true` gets converted from a Boolean to a number, it becomes a `1`.
+    
     F. `true` because `Boolean(2)` evaluates to `true`.
 16. `===` does the comparison without doing any typ conversions, so comparing things that are different types will always be false.
 17. `'How are you?'` gets printed to the console beacuse the first `if` conditions is false because `true` gets converted to `1` which is not equal to `2`. The second `if` condition is `true` because it is nonzero.
