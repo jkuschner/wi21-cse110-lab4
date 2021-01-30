@@ -1,0 +1,1 @@
+The bug is that `num1` and `num2` are passed to `calculateSum()` as strings, so they get concatenated instead of added like numbers. To fix this, I would typecast both `num1` and `num2` to numbers before adding them together.
